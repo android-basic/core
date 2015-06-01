@@ -2,8 +2,6 @@ package com.mj.core.util;
 
 import android.util.Log;
 
-import com.mj.core.BuildConfig;
-
 
 /**
  * Convenience class for logging. Logs the given parameters plus the calling class and line as a tag and the calling method's
