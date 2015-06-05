@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 
@@ -19,7 +19,7 @@ import rx.subscriptions.CompositeSubscription;
  * Created By: Robin Yang
  * Created At: 2014-11-24 15:13
  */
-public abstract class BaseActivity extends ActionBarActivity {
+public abstract class BaseActivity extends AppCompatActivity {
     public Context mContext;
 
     final public CompositeSubscription compositeSubscription = new CompositeSubscription();
