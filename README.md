@@ -1,0 +1,2 @@
+# core
+android base library
